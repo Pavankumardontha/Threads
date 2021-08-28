@@ -1,0 +1,11 @@
+Difference between threads and processes:- 
+1)Each process can contain multiple threads.We can have multiple threads inside a single process but we cannot have multiple processes inside 
+a single thread. 
+2)The second difference is regarding the address space remember whenever we work with processes,when we're forking, we are duplicating all the
+variables into the fork into a child process so we get two different variables basically one on each process and we can modify them individually.
+But with threads there's a big difference where we have all the variables in the same place so all threads can access all variables and 
+they all have a common very common set of variables with common address space.Threads share common memory space. All the threads in a process share 
+the common address space. All the varibles available inside a process are not be visible to other processes but they are visible to all the threads 
+which are inside it and any thread can modify them. 
+
+ 
