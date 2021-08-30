@@ -47,7 +47,13 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 
-
+/* 
+output :- 
+Got lock
+Didn't get lock
+Didn't get lock
+Didn't get lock
+*/
 
 
 
